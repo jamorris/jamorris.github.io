@@ -1,3 +1,4 @@
 theme: jekyll-theme-modernist
 url: http://johnandrewmorris.org
 production_url: http://johnandrewmorris.org
+BASE_PATH : false
