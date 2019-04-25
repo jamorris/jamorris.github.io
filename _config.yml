@@ -1,2 +1,3 @@
 theme: jekyll-theme-modernist
-url: johnandrewmorris.org
+url: http://johnandrewmorris.org
+production_url: http://johnandrewmorris.org
