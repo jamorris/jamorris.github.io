@@ -1,3 +1,3 @@
 **hello world**
 
-<h1>{site.url}</h1>
+<p>{{ site.github.url }}</p>
