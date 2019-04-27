@@ -16,7 +16,7 @@
 // Initialize and add the map
 function initMap() {
   // The location of Starkville
-  var starkville = {lat: 33.456, lng: -88.902};
+  var starkville = {lat: 33.451, lng: -88.834};
   // The map, centered at Starkville
   var map = new google.maps.Map(
       document.getElementById('map'), {zoom: 4, center: starkville});
