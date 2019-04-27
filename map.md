@@ -19,7 +19,7 @@ function initMap() {
   var starkville = {lat: 33.451, lng: -88.834};
   // The map, centered at Starkville
   var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 4, center: starkville});
+      document.getElementById('map'), {zoom: 8, center: starkville});
   // The marker, positioned at Starkville
   var marker = new google.maps.Marker({position: starkville, map: map});
 }
