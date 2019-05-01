@@ -28,7 +28,7 @@
 <body >
 	<a href="https://github.com/Viglino/ol-ext" class="icss-github-corner"><i></i></a>
 
-	<a href="../../index.html">
+	<a href="../index.html">
 		<h1>ol-ext: chart style + values</h1>
 	</a>
 	<p class="info">
