@@ -99,8 +99,8 @@ var layer = new ol.layer.Tile({ source: new ol.source.OSM() });
 				var s = 0;
 				for (var i=0; i<data.length; i++)
 				{	var d = data[i];
-      				var a = (2*s+d)/sum * Math.PI - Math.PI/2;
-					var v = Math.round(d/sum*1000);
+      				var a = (2*s+d)/(sum/10) * Math.PI - Math.PI/2;
+					var v = Math.round(d/(sum/10)*1000);
 					if (v>0)
       				{	style.push(new ol.style.Style(
 						{	text: new ol.style.Text(
