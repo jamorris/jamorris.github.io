@@ -69,7 +69,7 @@ var layer = new ol.layer.Tile({ source: new ol.source.OSM() });
 		if (!style)
 		{	var radius = 15;
 			// area proportional to data size: s=PI*r^2
-			radius = 8* Math.sqrt (feature.get("sum") / Math.PI);
+			radius = 23* Math.sqrt (feature.get("sum") / Math.PI);
 			var data = feature.get("data");
 			radius *= (sel?1.2:1);
 			// Create chart style
