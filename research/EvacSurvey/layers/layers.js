@@ -35,8 +35,8 @@ lyr_ZipCode_2012.set('fieldAliases', {'OBJECTID': 'OBJECTID', 'PO_NAME': 'PO_NAM
 lyr_SurveyResults.set('fieldAliases', {'field_1': 'field_1', 'ZIP_Code': 'ZIP_Code', 'Evac': 'Evac', 'NoEvac': 'NoEvac', 'total': 'total', 'city': 'city', 'state': 'state', 'latitude': 'latitude', 'longitude': 'longitude', });
 lyr_ZipCode_2012.set('fieldImages', {'OBJECTID': 'TextEdit', 'PO_NAME': 'TextEdit', 'ZIP': 'TextEdit', 'CA_NAME': 'TextEdit', 'SUMBLKPOP': 'TextEdit', 'POP2010': 'TextEdit', 'POP10_SQMI': 'TextEdit', 'SQMI': 'TextEdit', 'DESCRIPT': 'TextEdit', 'FGDLAQDATE': 'TextEdit', 'AUTOID': 'TextEdit', });
 lyr_SurveyResults.set('fieldImages', {'field_1': 'TextEdit', 'ZIP_Code': 'TextEdit', 'Evac': 'TextEdit', 'NoEvac': 'TextEdit', 'total': 'TextEdit', 'city': 'TextEdit', 'state': 'TextEdit', 'latitude': 'TextEdit', 'longitude': 'TextEdit', });
-lyr_ZipCode_2012.set('fieldLabels', {'OBJECTID': 'no label', 'PO_NAME': 'no label', 'ZIP': 'no label', 'CA_NAME': 'no label', 'SUMBLKPOP': 'no label', 'POP2010': 'no label', 'POP10_SQMI': 'no label', 'SQMI': 'no label', 'DESCRIPT': 'no label', 'FGDLAQDATE': 'no label', 'AUTOID': 'no label', });
-lyr_SurveyResults.set('fieldLabels', {'field_1': 'no label', 'ZIP_Code': 'header label', 'Evac': 'inline label', 'NoEvac': 'inline label', 'total': 'inline label', 'city': 'inline label', 'state': 'inline label', 'latitude': 'no label', 'longitude': 'no label', });
+lyr_ZipCode_2012.set('fieldLabels', {'OBJECTID': 'no label', 'PO_NAME': 'no label', 'ZIP': 'inline label', 'CA_NAME': 'inline label', 'SUMBLKPOP': 'no label', 'POP2010': 'inline label', 'POP10_SQMI': 'no label', 'SQMI': 'inline label', 'DESCRIPT': 'no label', 'FGDLAQDATE': 'no label', 'AUTOID': 'no label', });
+lyr_SurveyResults.set('fieldLabels', {'field_1': 'no label', 'ZIP_Code': 'inline label', 'Evac': 'inline label', 'NoEvac': 'inline label', 'total': 'inline label', 'city': 'inline label', 'state': 'inline label', 'latitude': 'no label', 'longitude': 'no label', });
 lyr_SurveyResults.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });

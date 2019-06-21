@@ -66,15 +66,6 @@ var map = new ol.Map({
     })
 });
 
-    var searchLayer = new ol.SearchLayer({
-      layer: lyr_SurveyResults,
-      colName: 'city',
-      zoom: 10,
-      collapsed: true,
-      map: map
-    });
-
-    map.addControl(searchLayer);
 map.getView().fit([-9589340.878497, 3002900.891777, -9038730.062065, 3593148.110868], map.getSize());
 
 var NO_POPUP = 0
