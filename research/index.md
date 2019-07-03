@@ -1,6 +1,6 @@
 [Full Map](EvacSurvey/Leaflet/)
 
-<iframe src="https://johnandrewmorris.org/research/EvacSurvey/Leaflet/" width="600" height="400"></iframe>
+<iframe src="https://johnandrewmorris.org/research/EvacSurvey/Leaflet/alt" width="600" height="400"></iframe>
 
 Hurricane Irma Survey 2017
 
