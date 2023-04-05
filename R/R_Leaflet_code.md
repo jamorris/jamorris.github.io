@@ -3,6 +3,7 @@ library(leaflet)
 library(leaflet.minicharts)
 library(shiny)
 library(rgdal) #support for .shp file
+library(htmlwidgets)
 
 #Read from .csv in working folder
 Evac <- read.csv(file="Evac_R2.csv", header=TRUE, sep=",")
@@ -91,4 +92,7 @@ m <- leaflet(data = bestTrack) %>%
           overlayGroups =c("Wind Field"),
           options = layersControlOptions(collapsed=FALSE)
           )
+
+# Save the map as an HTML file
+saveWidget(m, file = "index.html")
 ```
